@@ -11,12 +11,7 @@
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
+
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements 
@@ -30,41 +25,31 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  </head>
-
+  </head>    
+ 
+      <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      
+      .navbar-default {
+        background-color: #4545db;
+        border-color: #4545db;
+      }
+      .navbar {
+        background-color: #4545db;
+        border-color: #4545db;
+      }
+    </style>
+    
   <body>
       
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="myModalLabel"></h4>
-          </div>
-          <div id="modalBody" class="modal-body">
-            First Name: <input id='firstName' type='text' placeholder='Name'/><br>
-            Last Name: <input id='lastName' type='text' placeholder='Membership #'/><br>
-            Phone: <input id='appName' type='text' placeholder='Address'/><br>
-            Email: <input id='appName' type='text' placeholder='City'/><br>
-            Address: <input id='appName' type='text' placeholder='State'/><br>
-            Address 2: <input id='appName' type='text' placeholder='Zip'/><br>
-            City: <input id='appName' type='text' placeholder='Phone'/><br>
-            State: <input id='appName' type='text' placeholder='Email'/><br>
-            Zip: <input id='appName' type='text' placeholder='Phone'/><br>
-            Contact By: <input id='appName' type='text' placeholder='Email'/><br>            
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>  
+
 
     <!-- Navigation -->
     
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -73,29 +58,36 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="index.html">United Tire</a>
+
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="setup-notes.html">Tires</a></li>
               <li><a href="navbar-examples.html">Parts</a></li>       
               <li><a href="index.html">OE Parts</a></li>
-              <li><a href="setup-notes.html">Equipment</a></li>
-              <li><a href="navbar-examples.html">Training</a></li> 
-              <li><a href="navbar-examples.html">Contact Us</a></li> 
-		        </ul>
-		        	<a class="btn btn-primary pull-right" href="http://www.networktire.com">Submit</a>
+              <li><a href="blah.html">Equipment</a></li>
+              <li><a href="blah2.html">Training</a></li> 
+              <li><a href="blah3.html">Contact Us</a></li> 
+<!--              <li><a href="#" data-html="true" data-placement="bottom"
+                    data-toggle="popover"
+                    data-content="Notification 1<br/>Notification 2"
+                    data-original-title="Notifications">
+                    <span class="badge badge-success">2</span> Notifications
+                  </a></li>-->
+            </ul>
+            <a class="btn btn-primary pull-right" href="http://www.networktire.com">Submit</a>
             <form class="navbar-search pull-right" action="">
-                <input type="text" class="search-query span2" placeholder="Search">
-                
+                <input type="text" class="search-query span2" placeholder="Search">                
             </form>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-    <p><img align="center" src="http://mainlinetiregroup.com/img/mainline-welcome-logo.jpg"></div></p>
+    
     <div class="container">
       <div class="hero-unit">
-        <h1>Welcome To United Tire!</h1>
+          <div align='center'><img align='center' src="img/united_tire_logo.png"></div>
+        <h1 align='center'>Welcome To United Tire!</h1>
         <p>Welcome to UNITED Tire & Service. We are a network of 17 tire & auto repair facilities located throughout the Delaware Valley.
 
 We are fully committed to providing the highest quality tires & auto repair—you will never recieve anything less than the excellent customer service you deserve. 
@@ -114,23 +106,38 @@ We are fully committed to providing the highest quality tires & auto repair—yo
 
       <div class="row">
         <div class="span4">
-          <h2>Setup Notes</h2>
-           <p>Get your markup, CSS, and JavaScript organized and linked up!</p>
+          <h2>Just A Little About Us</h2>
+           <p>Serving the Delaware Valley area, Mainline Tire Group takes great pride in providing the highest quality tires 
+               from the most reputable manufacturers. We are the largest <button target="_blank" onclick="window.location.href='http://www.mainlinetiregroup.com/goodyear-tires-pennsylvania'" class="btn btn-primary btn-lg">
+    Goodyear
+</button> , <button target="_blank" onclick="window.location.href='http://www.mainlinetiregroup.com/dunlop-tires-pennsylvania'" class="btn btn-primary btn-lg">
+    Dunlop
+</button> , <button target="_blank" onclick="window.location.href='http://www.mainlinetiregroup.com/kelly-tires-pennsylvania'" class="btn btn-primary btn-lg">
+    Kelly
+</button> dealer in the region and we also 
+               offer other top tire brands such as Michelin, BFGoodrich, Uniroyal, Cooper, Hankook, Continental, General and more. 
+               Our service departments specializes in all aspects of automotive repairs including oil changes, tune-ups, tire balancing, 
+               tire repair and more. Schedule Your Appointment Today!</p>
           <p><a class="btn" href="setup-notes.html">Go there &raquo;</a></p>
         </div>
         <div class="span4">
-          <h2>Navbar Examples</h2>
-           <p>Suggestions and code for three ways to setup your navbar:</p>
+          <h2>Change In Logo</h2>
+          <img align='center' src="img/mainline_logo.png">
+<!--           <p>Suggestions and code for three ways to setup your navbar:</p>
            	<ul>
            		<li>fixed-top</li>
            		<li>static full-width</li>
            		<li>static inside container</li>
-           	</ul>
+</ul>--><br><br>
           <p><a class="btn" href="navbar-examples.html">Go there &raquo;</a></p>
        </div>
         <div class="span4">
-          <h2>Next Up: Tabs & Pills</h2>
-          <p>Coming soon!</p>
+          <h2>Employment</h2>
+          <p>Come join us as a valued member of our team. We offer competitive salary and benefits. We are an equal opportunity employer.
+
+Click on a job title for more information and to submit an application.
+<br><br>
+<b>We have no job listings at this time, but check back from time to time.</b></p>
         </div>
       </div><!-- end row 1 -->
 
@@ -138,6 +145,35 @@ We are fully committed to providing the highest quality tires & auto repair—yo
 
     </div> <!-- /container -->
 
+    
+    <!-- Modal -->
+<!--    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel"></h4>
+          </div>
+          <div id="modalBody" class="modal-body">
+            First Name: <input id='firstName' type='text' placeholder='Name'/><br>
+            Last Name: <input id='lastName' type='text' placeholder='Membership #'/><br>
+            Phone: <input id='phone' type='text' placeholder='Address'/><br>
+            Email: <input id='email' type='text' placeholder='City'/><br>
+            Address: <input id='address' type='text' placeholder='State'/><br>
+            Address 2: <input id='address2' type='text' placeholder='Zip'/><br>
+            City: <input id='city' type='text' placeholder='Phone'/><br>
+            State: <input id='state' type='text' placeholder='Email'/><br>
+            Zip: <input id='zip' type='text' placeholder='Phone'/><br>
+            Contact By: <input id='contactBy' type='text' placeholder='Email'/><br>            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>  -->
+    
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -162,7 +198,7 @@ We are fully committed to providing the highest quality tires & auto repair—yo
     </script>
     
     <footer align="center">
-    <p style="color: blue">© 2014 United Tire & Service All Rights Reserved | <a href="#">www.mainlinetiregroup.com</a> |
+    <p style="color: blue">© 2014 United Tire & Service All Rights Reserved | <a href='http://www.mainlinetiregroup.com'>www.mainlinetiregroup.com</a> |
   
   </p>
 
